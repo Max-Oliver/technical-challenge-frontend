@@ -25,3 +25,30 @@
   color: $thirdColor;
   border: 2px solid $thirdColor;
 }
+
+@media screen and (max-width: 1100px) and (max-width: 600px) and (min-width: 320px) {
+  .custom__button {
+    position: relative;
+    top: 12vh;
+    left: -12vw;
+    background-color: $thirdColor;
+    width: 14em;
+    height: 50px;
+    padding: 10px;
+    z-index: 10000000;
+    border-radius: 10px;
+    margin: 0px;
+    border-style: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+    border: 2px solid $thirdColor;
+
+    .button_text {
+      font-size: 1.1rem;
+      letter-spacing: 4px;
+      font-weight: lighter;
+      border-color: none;
+    }
+  }
+}
