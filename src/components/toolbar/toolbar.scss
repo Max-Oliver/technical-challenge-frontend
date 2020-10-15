@@ -28,3 +28,42 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) and (max-width: 1100px) and (min-width: 320px) {
+  .navbar__container {
+    position: relative;
+    display: flex;
+    height: 2.5em;
+    background-color: black;
+
+    .title__container {
+      position: relative;
+      left: 20px;
+      top: -5px;
+      text-align: left;
+      font-size: 22px !important;
+      width: fit-content;
+    }
+
+    .social__container {
+      .social__text {
+        display: none;
+      }
+
+      .social__container {
+        .facebook__icon {
+          margin: 2px 5px;
+          font-size: 25px;
+          display: flex;
+          margin-left: auto;
+          padding: 10px;
+          width: fit-content;
+        }
+        .social__link:touch {
+          color: $socialColor;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
