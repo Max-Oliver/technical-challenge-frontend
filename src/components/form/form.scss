@@ -1,0 +1,182 @@
+.container__form {
+  margin-left: 25%;
+  width: 50%;
+  height: fit-content;
+  padding: 35px;
+
+  .error_message_left {
+    color: red;
+    display: flex;
+    position: relative;
+    left: 3vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    z-index: 999;
+  }
+  .error_message_right {
+    color: red;
+    display: flex;
+    position: relative;
+    left: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    z-index: 999;
+  }
+
+  input:focus {
+    outline-color: #1668c4 !important;
+  }
+
+  label {
+    display: flex;
+    width: fit-content;
+    font-size: 16px;
+  }
+
+  .fullname__container {
+    display: flex;
+    position: relative;
+    left: 0;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+
+    .name__container {
+      .name__input {
+        position: relative;
+        width: 20.5vw;
+        min-height: 64px;
+        margin-left: 0vw;
+        margin-top: 1vh;
+        margin-right: 20px;
+
+        padding-left: 20px;
+        color: grey;
+        font-size: larger;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+    }
+    .apellido__container {
+      .apellido__input {
+        width: 21.8vw;
+        min-height: 64px;
+        margin-top: 1vh;
+        margin-right: 0;
+        position: relative;
+        padding-left: 15px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid gray;
+        font-size: larger;
+      }
+    }
+  }
+
+  .email__input {
+    input {
+      margin-left: 50px;
+      margin-top: 20px;
+      padding: 10px;
+      width: 90%;
+      border-radius: 5px;
+      border: 1px solid grey;
+      box-sizing: border-box;
+      min-height: 64px;
+      font-size: larger;
+      color: grey;
+    }
+  }
+
+  .zones__container {
+    display: flex;
+    position: relative;
+    min-height: 64px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 40px;
+    color: grey;
+
+    .departamento__container {
+      select {
+        position: relative;
+        left: 0vw;
+        color: grey;
+        width: 21.8vw;
+        min-height: 64px;
+        border-radius: 5px;
+        padding-left: 20px;
+        font-size: 20px;
+      }
+
+      select:focus {
+        outline-color: #007acc;
+      }
+    }
+    .localidad__container {
+      select {
+        position: relative;
+        left: 0vw;
+        margin-left: 1vw;
+        color: grey;
+        width: 21.8vw;
+        min-height: 64px;
+        border-radius: 5px;
+        padding-left: 20px;
+        font-size: 20px;
+      }
+
+      select:focus {
+        outline-color: #007acc;
+      }
+    }
+  }
+
+  .CI__and__checkbox__container {
+    display: flex;
+
+    .cedula__container {
+      input {
+        position: relative;
+        left: 1.5vw;
+        margin-left: 1vw;
+        margin-top: 20px;
+        color: grey;
+        width: 20.5vw;
+        min-height: 64px;
+        border-radius: 5px;
+        padding-left: 20px;
+        font-size: 20px;
+        border: 1px solid gray;
+      }
+    }
+    .checkbox__container {
+      input {
+        position: relative;
+        top: 1.5vh;
+        left: 2.5vw;
+      }
+
+      label {
+        position: relative;
+        top: 4vh;
+        left: 3.8vw;
+        font-size: 25px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: grey;
+      }
+    }
+  }
+
+  .container__button {
+    display: flex;
+    position: relative;
+    left: 34%;
+    top: 4vh;
+    margin-bottom: 6vh;
+  }
+}
